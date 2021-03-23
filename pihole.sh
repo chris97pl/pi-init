@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd pihole && docker-compose up --detach
+curl -sSL https://install.pi-hole.net | bash
