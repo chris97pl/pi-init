@@ -2,6 +2,6 @@ FROM arm64v8/openjdk:8-jdk-slim AS build
 
 COPY target/nukkit-1.0-SNAPSHOT.jar /home/nukkit.jar
 
-WORKDIR /home
+WORKDIR /home/config
 
-CMD java -jar /home/nukkit.jar
+CMD java -jar ../nukkit.jar
