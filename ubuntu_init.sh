@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo apt update && sudo apt upgrade
-sudo apt install docker.io net-tools mc
+sudo apt -y update && sudo apt -y upgrade
+sudo apt install -y docker.io net-tools mc
